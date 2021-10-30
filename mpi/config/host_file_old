@@ -1,0 +1,22 @@
+# Available workers for mpi, do not edit by hand.
+# Use the python script!
+# Comments as in Pyhton.
+
+# HPC Worker
+#hpc01.clients.eikon.tum.de slots=2 max-slots=2
+#hpc02.clients.eikon.tum.de slots=2 max-slots=2
+#hpc03.clients.eikon.tum.de slots=2 max-slots=2
+#hpc04.clients.eikon.tum.de slots=2 max-slots=2
+#hpc05.clients.eikon.tum.de slots=2 max-slots=2
+#hpc06.clients.eikon.tum.de slots=2 max-slots=2
+hpc07.clients.eikon.tum.de slots=2 max-slots=2
+hpc08.clients.eikon.tum.de slots=2 max-slots=2
+hpc09.clients.eikon.tum.de slots=2 max-slots=2
+#hpc10.clients.eikon.tum.de slots=2 max-slots=2
+#hpc11.clients.eikon.tum.de slots=2 max-slots=2
+#hpc12.clients.eikon.tum.de slots=2 max-slots=2
+hpc13.clients.eikon.tum.de slots=2 max-slots=2
+#hpc15.clients.eikon.tum.de slots=2 max-slots=2
+
+# Currently not available
+#hpc14.clients.eikon.tum.de slots=2 max-slots=2

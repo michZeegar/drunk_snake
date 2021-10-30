@@ -1,0 +1,590 @@
+[0;36mThis script will build the newest version of mpi_dummy_test. [0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ga45yeh/LRZ Sync+Share/HighPerformanceComputing/snake_project/gruppe5/mpi/mpi_dummy_test/build
+[ 33%] Built target mpi_traffic_test
+[ 66%] Built target mpi_dummy_test
+[100%] Built target scatter_gather
+[0;36mExecution of the newest version of mpi_dummy_test!!! [0m
+hpc12
+hpc10
+hpc10
+hpc06
+hpc06
+hpc08
+hpc08
+hpc08
+hpc09
+hpc09
+hpc09
+hpc11
+hpc11
+hpc07
+hpc07
+hpc07
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+647 MB transmitted form the root broadcaster!!
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc10
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc06
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc08
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc09
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc07
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc13
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc15
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    hpc11
+  Remote host:   129.187.240.159
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+[0;36mThis script will build the newest version of mpi_dummy_test. [0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ga45yeh/LRZ Sync+Share/HighPerformanceComputing/snake_project/gruppe5/mpi/mpi_dummy_test/build
+[ 33%] Built target mpi_traffic_test
+[ 66%] Built target mpi_dummy_test
+[100%] Built target scatter_gather
+[0;36mExecution of the newest version of mpi_dummy_test!!! [0m
+hpc12
+hpc10
+hpc10
+hpc06
+hpc06
+hpc11
+hpc11
+hpc08
+hpc08
+hpc08
+hpc09
+hpc09
+hpc09
+hpc07
+hpc07
+hpc07
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+647 MB transmitted form the root broadcaster!!
+Process 1  of  hpc06 needed time to finish:  68with 552807 and 552875
+Process 5  of  hpc08 needed time to finish:  69with 728861 and 728930
+Process 5 needed time to calculate:  1
+Process 5 needed time for communication:  68
+Process 2  of  hpc07 needed time to finish:  69with 641115 and 641184
+Process 2 needed time to calculate:  1
+Process 2 needed time for communication:  68
+Process 0  of  hpc06 needed time to finish:  68with 552807 and 552875
+Process 0 needed time to calculate:  1
+Process 0 needed time for communication:  67
+Process 0 received data:  
+Process 6  of  hpc08 needed time to finish:  69with 728861 and 728930
+Process 6 needed time to calculate:  1
+Process 6 needed time for communication:  68
+Process 3  of  hpc07 needed time to finish:  69with 641115 and 641184
+Process 3 needed time to calculate:  1
+Process 3 needed time for communication:  68
+Process 1 needed time to calculate:  1
+Process 1 needed time for communication:  67
+Process 7  of  hpc08 needed time to finish:  69with 728861 and 728930
+Process 7 needed time to calculate:  1
+Process 7 needed time for communication:  68
+Process 4  of  hpc07 needed time to finish:  69with 641115 and 641184
+Process 4 needed time to calculate:  1
+Process 4 needed time for communication:  68
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 161797500
+2  from root process!Inspected element is 323595000
+3  from root process!Inspected element is 485392500
+4  from root process!Inspected element is 647190000
+5  from root process!Inspected element is 808987500
+6  from root process!Inspected element is 970785000
+7  from root process!Inspected element is 1132582500
+Totatl runtime: 72
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+431 MB transmitted form the root broadcaster!!
+Process 0  of  hpc06 needed time to finish:  96with 552881 and 552977
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  96
+Process 0 received data:  
+Process 4  of  hpc07 needed time to finish:  97with 641189 and 641286
+Process 4 needed time to calculate:  0
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 107865000
+2  from root process!Inspected element is 215730000
+3  from root process!Inspected element is 323595000
+4  from root process!Inspected element is 431460000
+5  from root process!Inspected element is 539325000
+6  from root process!Inspected element is 647190000
+7  from root process!Inspected element is 755055000
+8  from root process!Inspected element is 862920000
+9  from root process!Inspected element is 970785000
+10  from root process!Inspected element is 1078650000
+11  from root process!Inspected element is 1186515000
+Process 4 needed time for communication:  97
+Process 11  of  hpc10 needed time to finish:  96with 351468 and 351564
+Process 11 needed time to calculate:  0
+Process 11 needed time for communication:  96
+Process 1  of  hpc06 needed time to finish:  96with 552881 and 552977
+Process 2  of  hpc07 needed time to finish:  97with 641189 and 641286
+Process 2 needed time to calculate:  0
+Process 2 needed time for communication:  97
+Process 5  of  hpc08 needed time to finish:  97with 728935 and 729032
+Process 5 needed time to calculate:  0
+Process 5 needed time for communication:  97
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  96
+Process 3  of  hpc07 needed time to finish:  97with 641189 and 641286
+Process 3 needed time to calculate:  0
+Process 3 needed time for communication:  97
+Process 6  of  hpc08 needed time to finish:  97with 728935 and 729032
+Process 6 needed time to calculate:  0
+Process 6 needed time for communication:  97
+Process 7  of  hpc08 needed time to finish:  97with 728935 and 729032
+Process 7 needed time to calculate:  0
+Process 7 needed time for communication:  97
+Process 8  of  hpc09 needed time to finish:  97with 728547 and 728644
+Process 8 needed time to calculate:  1
+Process 8 needed time for communication:  96
+Process 9  of  hpc09 needed time to finish:  97with 728547 and 728644
+Process 9 needed time to calculate:  1
+Process 9 needed time for communication:  96
+Process 10  of  hpc09 needed time to finish:  97with 728547 and 728644
+Process 10 needed time to calculate:  1
+Process 10 needed time for communication:  96
+Totatl runtime: 100
+[0;36mThis script will build the newest version of mpi_dummy_test. [0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ga45yeh/LRZ Sync+Share/HighPerformanceComputing/snake_project/gruppe5/mpi/mpi_dummy_test/build
+[ 33%] Built target mpi_traffic_test
+[ 66%] Built target mpi_dummy_test
+[100%] Built target scatter_gather
+[0;36mExecution of the newest version of mpi_dummy_test!!! [0m
+[0;32mChecking if 16 processes are ready to be called !!. [0m
+hpc12
+hpc10
+hpc10
+hpc06
+hpc06
+hpc11
+hpc11
+hpc07
+hpc07
+hpc07
+hpc09
+hpc09
+hpc09
+hpc08
+hpc08
+hpc08
+[0;32mTesting speed with 8 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+647 MB transmitted form the root broadcaster!!
+Process 6  of  hpc08 needed time to finish:  55with 729188 and 729243
+Process 6 needed time to calculate:  1
+Process 6 needed time for communication:  54
+Process 2  of  hpc07 needed time to finish:  55with 641442 and 641497
+Process 2 needed time to calculate:  0
+Process 2 needed time for communication:  55
+Process 0  of  hpc06 needed time to finish:  54with 553134 and 553188
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  54
+Process 0 received data:  
+Process 4  of  hpc07 needed time to finish:  55with 641442 and 641497
+Process 4 needed time to calculate:  1
+Process 4 needed time for communication:  54
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 161797500
+2  from root process!Inspected element is 323595000
+3  from root process!Inspected element is 485392500
+4  from root process!Inspected element is 647190000
+5  from root process!Inspected element is 808987500
+6  from root process!Inspected element is 970785000
+7  from root process!Inspected element is 1132582500
+Process 5  of  hpc08 needed time to finish:  55with 729188 and 729243
+Process 5 needed time to calculate:  0
+Process 5 needed time for communication:  55
+Process 3  of  hpc07 needed time to finish:  55with 641442 and 641497
+Process 3 needed time to calculate:  0
+Process 3 needed time for communication:  55
+Process 1  of  hpc06 needed time to finish:  54with 553134 and 553188
+Process 7  of  hpc08 needed time to finish:  55with 729188 and 729243
+Process 7 needed time to calculate:  0
+Process 7 needed time for communication:  55
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  54
+Totatl runtime: 58
+[0;32mTesting speed with 12 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+431 MB transmitted form the root broadcaster!!
+Process 0  of  hpc06 needed time to finish:  97with 553194 and 553291
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  97
+Process 0 received data:  
+Process 6  of  hpc08 needed time to finish:  98with 729248 and 729346
+Process 6 needed time to calculate:  0
+Process 6 needed time for communication:  98
+Process 4  of  hpc07 needed time to finish:  98with 641502 and 641600
+Process 4 needed time to calculate:  0
+Process 8  of  hpc09 needed time to finish:  98with 728860 and 728958
+Process 8 needed time to calculate:  0
+Process 8 needed time for communication:  98
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 107865000
+2  from root process!Inspected element is 215730000
+3  from root process!Inspected element is 323595000
+4  from root process!Inspected element is 431460000
+5  from root process!Inspected element is 539325000
+6  from root process!Inspected element is 647190000
+7  from root process!Inspected element is 755055000
+8  from root process!Inspected element is 862920000
+9  from root process!Inspected element is 970785000
+10  from root process!Inspected element is 1078650000
+11  from root process!Inspected element is 1186515000
+Process 11  of  hpc10 needed time to finish:  97with 351781 and 351878
+Process 11 needed time to calculate:  0
+Process 11 needed time for communication:  97
+Process 5  of  hpc08 needed time to finish:  98with 729248 and 729346
+Process 5 needed time to calculate:  0
+Process 5 needed time for communication:  98
+Process 4 needed time for communication:  98
+Process 10  of  hpc09 needed time to finish:  98with 728860 and 728958
+Process 1  of  hpc06 needed time to finish:  97with 553194 and 553291
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  97
+Process 7  of  hpc08 needed time to finish:  98with 729248 and 729346
+Process 7 needed time to calculate:  0
+Process 7 needed time for communication:  98
+Process 2  of  hpc07 needed time to finish:  98with 641502 and 641600
+Process 10 needed time to calculate:  0
+Process 10 needed time for communication:  98
+Process 2 needed time to calculate:  0
+Process 2 needed time for communication:  98
+Process 9  of  hpc09 needed time to finish:  98with 728860 and 728958
+Process 9 needed time to calculate:  0
+Process 9 needed time for communication:  98
+Process 3  of  hpc07 needed time to finish:  98with 641502 and 641600
+Process 3 needed time to calculate:  0
+Process 3 needed time for communication:  98
+Totatl runtime: 101
+[0;32mTesting speed with 16 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+323 MB transmitted form the root broadcaster!!
+Process 3  of  hpc07 needed time to finish:  101with 641605 and 641706
+Process 3 needed time to calculate:  1
+Process 3 needed time for communication:  100
+Process 5  of  hpc08 needed time to finish:  101with 729351 and 729452
+Process 5 needed time to calculate:  1
+Process 5 needed time for communication:  100
+Process 13  of  hpc11 needed time to finish:  101with 641483 and 641584
+Process 15  of  hpc12 needed time to finish:  101with 1365707 and 1365808
+Process 15 needed time to calculate:  0
+Process 15 needed time for communication:  101
+Process 4  of  hpc07 needed time to finish:  101with 641605 and 641706
+Process 4 needed time to calculate:  1
+Process 4 needed time for communication:  100
+Process 6  of  hpc08 needed time to finish:  101with 729351 and 729452
+Process 6 needed time to calculate:  1
+Process 6 needed time for communication:  100
+Process 11  of  hpc10 needed time to finish:  101with 351884 and 351985
+Process 11 needed time to calculate:  0
+Process 11 needed time for communication:  101
+Process 13 needed time to calculate:  1
+Process 7  of  hpc08 needed time to finish:  101with 729351 and 729452
+Process 7 needed time to calculate:  1
+Process 7 needed time for communication:  100
+Process 12  of  hpc10 needed time to finish:  101with 351884 and 351985
+Process 12 needed time to calculate:  0
+Process 12 needed time for communication:  101
+Process 13 needed time for communication:  100
+Process 14  of  hpc11 needed time to finish:  101with 641483 and 641584
+Process 14 needed time to calculate:  1
+Process 14 needed time for communication:  100
+Process 1  of  hpc06 needed time to finish:  101with 553297 and 553398
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  101
+Process 2  of  hpc07 needed time to finish:  101with 641605 and 641706
+Process 2 needed time to calculate:  1
+Process 2 needed time for communication:  100
+Process 0  of  hpc06 needed time to finish:  101with 553297 and 553398
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  101
+Process 0 received data:  
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 80898750
+2  from root process!Inspected element is 161797500
+3  from root process!Inspected element is 242696250
+4  from root process!Inspected element is 323595000
+5  from root process!Inspected element is 404493750
+6  from root process!Inspected element is 485392500
+7  from root process!Inspected element is 566291250
+8  from root process!Inspected element is 647190000
+9  from root process!Inspected element is 728088750
+10  from root process!Inspected element is 808987500
+11  from root process!Inspected element is 889886250
+12  from root process!Inspected element is 970785000
+13  from root process!Inspected element is 1051683750
+14  from root process!Inspected element is 1132582500
+15  from root process!Inspected element is 1213481250
+Process 8  of  hpc09 needed time to finish:  100with 728964 and 729064
+Process 8 needed time to calculate:  0
+Process 8 needed time for communication:  100
+Process 9  of  hpc09 needed time to finish:  100with 728964 and 729064
+Process 9 needed time to calculate:  0
+Process 9 needed time for communication:  100
+Process 10  of  hpc09 needed time to finish:  100with 728964 and 729064
+Process 10 needed time to calculate:  0
+Process 10 needed time for communication:  100
+Totatl runtime: 105
+[0;36mThis script will build the newest version of mpi_dummy_test. [0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ga45yeh/LRZ Sync+Share/HighPerformanceComputing/snake_project/gruppe5/mpi/mpi_dummy_test/build
+Scanning dependencies of target mpi_traffic_test
+[ 16%] Building CXX object CMakeFiles/mpi_traffic_test.dir/mpi_traffic_test.cpp.o
+[ 33%] Linking CXX executable mpi_traffic_test
+[ 33%] Built target mpi_traffic_test
+[ 66%] Built target mpi_dummy_test
+[100%] Built target scatter_gather
+[0;36mExecution of the newest version of mpi_dummy_test!!! [0m
+[0;32mChecking if 16 processes are ready to be called !!. [0m
+hpc12
+hpc06
+hpc06
+hpc10
+hpc10
+hpc07
+hpc07
+hpc08
+hpc07
+hpc08
+hpc08
+hpc09
+hpc09
+hpc09
+hpc11
+hpc11
+[0;32mTesting speed with 8 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+647 MB transmitted form the root broadcaster!!
+Process 1  of  hpc06 needed time to finish:  58with 553750 and 553808
+Process 5  of  hpc08 needed time to finish:  58with 729804 and 729862
+Process 5 needed time to calculate:  1
+Process 5 needed time for communication:  57
+Process 0  of  hpc06 needed time to finish:  58with 553750 and 553808
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  58
+Process 0 received data:  
+Process 6  of  hpc08 needed time to finish:  58with 729804 and 729862
+Process 2  of  hpc07 needed time to finish:  58with 642058 and 642116
+Process 2 needed time to calculate:  1
+Process 2 needed time for communication:  57
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  58
+Process 7  of  hpc08 needed time to finish:  58with 729804 and 729862
+Process 7 needed time to calculate:  1
+Process 7 needed time for communication:  57
+Process 3  of  hpc07 needed time to finish:  58with 642058 and 642116
+Process 3 needed time to calculate:  1
+Process 3 needed time for communication:  57
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 161797500
+2  from root process!Inspected element is 323595000
+3  from root process!Inspected element is 485392500
+4  from root process!Inspected element is 647190000
+5  from root process!Inspected element is 808987500
+6  from root process!Inspected element is 970785000
+7  from root process!Inspected element is 1132582500
+Process 6 needed time to calculate:  1
+Process 6 needed time for communication:  57
+Process 4  of  hpc07 needed time to finish:  58with 642058 and 642116
+Process 4 needed time to calculate:  1
+Process 4 needed time for communication:  57
+Totatl runtime: 62
+[0;32mTesting speed with 12 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+431 MB transmitted form the root broadcaster!!
+Process 0  of  hpc06 needed time to finish:  98with 553813 and 553911
+Process 0 needed time to calculate:  1
+Process 0 needed time for communication:  97
+Process 0 received data:  
+Process 6  of  hpc08 needed time to finish:  97with 729868 and 729965
+Process 6 needed time to calculate:  0
+Process 8  of  hpc09 needed time to finish:  97with 729480 and 729577
+Process 8 needed time to calculate:  1
+Process 8 needed time for communication:  96
+Process 4  of  hpc07 needed time to finish:  97with 642122 and 642219
+Process 4 needed time to calculate:  0
+Process 11  of  hpc10 needed time to finish:  98with 352400 and 352498
+Process 11 needed time to calculate:  1
+Process 11 needed time for communication:  97
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 107865000
+2  from root process!Inspected element is 215730000
+3  from root process!Inspected element is 323595000
+4  from root process!Inspected element is 431460000
+5  from root process!Inspected element is 539325000
+6  from root process!Inspected element is 647190000
+7  from root process!Inspected element is 755055000
+8  from root process!Inspected element is 862920000
+9  from root process!Inspected element is 970785000
+10  from root process!Inspected element is 1078650000
+11  from root process!Inspected element is 1186515000
+Process 5  of  hpc08 needed time to finish:  97with 729868 and 729965
+Process 5 needed time to calculate:  0
+Process 5 needed time for communication:  97
+Process 9  of  hpc09 needed time to finish:  97with 729480 and 729577
+Process 9 needed time to calculate:  0
+Process 9 needed time for communication:  97
+Process 4 needed time for communication:  97
+Process 1  of  hpc06 needed time to finish:  98with 553813 and 553911
+Process 6 needed time for communication:  97
+Process 10  of  hpc09 needed time to finish:  97with 729480 and 729577
+Process 10 needed time to calculate:  0
+Process 10 needed time for communication:  97
+Process 2  of  hpc07 needed time to finish:  97with 642122 and 642219
+Process 1 needed time to calculate:  1
+Process 1 needed time for communication:  97
+Process 7  of  hpc08 needed time to finish:  97with 729868 and 729965
+Process 2 needed time to calculate:  0
+Process 2 needed time for communication:  97
+Process 7 needed time to calculate:  0
+Process 7 needed time for communication:  97
+Process 3  of  hpc07 needed time to finish:  97with 642122 and 642219
+Process 3 needed time to calculate:  0
+Process 3 needed time for communication:  97
+Totatl runtime: 101
+[0;32mTesting speed with 16 processes !!! [0m
+Hello I am the MPI traffic tester !!!!
+Process is 0 broadcasting data: 
+323 MB transmitted form the root broadcaster!!
+Process 1  of  hpc06 needed time to finish:  97with 553916 and 554013
+Process 2  of  hpc07 needed time to finish:  98with 642224 and 642322
+Process 2 needed time to calculate:  1
+Process 2 needed time for communication:  97
+Process 15  of  hpc12 needed time to finish:  98with 1366326 and 1366424
+Process 15 needed time to calculate:  0
+Process 15 needed time for communication:  98
+Process 0  of  hpc06 needed time to finish:  97with 553916 and 554013
+Process 0 needed time to calculate:  0
+Process 0 needed time for communication:  97
+Process 0 received data:  
+Process 3  of  hpc07 needed time to finish:  98with 642224 and 642322
+Process 3 needed time to calculate:  0
+Process 3 needed time for communication:  98
+Process 11  of  hpc10 needed time to finish:  97with 352503 and 352600
+Process 11 needed time to calculate:  0
+Process 11 needed time for communication:  97
+Process 1 needed time to calculate:  0
+Process 1 needed time for communication:  97
+Process 4  of  hpc07 needed time to finish:  98with 642224 and 642322
+Process 4 needed time to calculate:  0
+Process 4 needed time for communication:  98
+Process 5  of  hpc08 needed time to finish:  98with 729970 and 730068
+Process 5 needed time to calculate:  0
+Process 5 needed time for communication:  98
+Process 8  of  hpc09 needed time to finish:  97with 729583 and 729680
+Process 8 needed time to calculate:  0
+Process 8 needed time for communication:  97
+Process 13  of  hpc11 needed time to finish:  97with 642102 and 642199
+Process 12  of  hpc10 needed time to finish:  97with 352503 and 352600
+Process 12 needed time to calculate:  0
+Process 12 needed time for communication:  97
+0  from root process!Inspected element is 0
+1  from root process!Inspected element is 80898750
+2  from root process!Inspected element is 161797500
+3  from root process!Inspected element is 242696250
+4  from root process!Inspected element is 323595000
+5  from root process!Inspected element is 404493750
+6  from root process!Inspected element is 485392500
+7  from root process!Inspected element is 566291250
+8  from root process!Inspected element is 647190000
+9  from root process!Inspected element is 728088750
+10  from root process!Inspected element is 808987500
+11  from root process!Inspected element is 889886250
+12  from root process!Inspected element is 970785000
+13  from root process!Inspected element is 1051683750
+14  from root process!Inspected element is 1132582500
+15  from root process!Inspected element is 1213481250
+Process 6  of  hpc08 needed time to finish:  98with 729970 and 730068
+Process 6 needed time to calculate:  1
+Process 6 needed time for communication:  97
+Process 9  of  hpc09 needed time to finish:  97with 729583 and 729680
+Process 9 needed time to calculate:  0
+Process 9 needed time for communication:  97
+Process 14  of  hpc11 needed time to finish:  97with 642102 and 642199
+Process 14 needed time to calculate:  1
+Process 14 needed time for communication:  96
+Process 7  of  hpc08 needed time to finish:  98with 729970 and 730068
+Process 7 needed time to calculate:  0
+Process 7 needed time for communication:  98
+Process 10  of  hpc09 needed time to finish:  97with 729583 and 729680
+Process 10 needed time to calculate:  0
+Process 10 needed time for communication:  97
+Process 13 needed time to calculate:  0
+Process 13 needed time for communication:  97
+Totatl runtime: 101

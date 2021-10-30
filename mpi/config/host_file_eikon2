@@ -1,0 +1,57 @@
+# Available workers for mpi, do not edit by hand.
+# Use the python script!
+# Comments as in Pyhton.
+
+# Eikon Worker
+linux20.clients.eikon.tum.de slots=2 max-slots=2
+linux21.clients.eikon.tum.de slots=2 max-slots=2
+linux22.clients.eikon.tum.de slots=2 max-slots=2
+linux23.clients.eikon.tum.de slots=2 max-slots=2
+linux24.clients.eikon.tum.de slots=2 max-slots=2
+linux25.clients.eikon.tum.de slots=2 max-slots=2
+linux26.clients.eikon.tum.de slots=2 max-slots=2
+linux27.clients.eikon.tum.de slots=2 max-slots=2
+linux28.clients.eikon.tum.de slots=2 max-slots=2
+linux29.clients.eikon.tum.de slots=2 max-slots=2
+linux30.clients.eikon.tum.de slots=2 max-slots=2
+linux31.clients.eikon.tum.de slots=2 max-slots=2
+linux32.clients.eikon.tum.de slots=2 max-slots=2
+linux33.clients.eikon.tum.de slots=2 max-slots=2
+linux34.clients.eikon.tum.de slots=2 max-slots=2
+linux35.clients.eikon.tum.de slots=2 max-slots=2
+linux36.clients.eikon.tum.de slots=2 max-slots=2
+linux37.clients.eikon.tum.de slots=2 max-slots=2
+linux38.clients.eikon.tum.de slots=2 max-slots=2
+linux39.clients.eikon.tum.de slots=2 max-slots=2
+linux40.clients.eikon.tum.de slots=2 max-slots=2
+linux41.clients.eikon.tum.de slots=2 max-slots=2
+linux42.clients.eikon.tum.de slots=2 max-slots=2
+linux43.clients.eikon.tum.de slots=2 max-slots=2
+linux44.clients.eikon.tum.de slots=2 max-slots=2
+linux45.clients.eikon.tum.de slots=2 max-slots=2
+linux46.clients.eikon.tum.de slots=2 max-slots=2
+linux47.clients.eikon.tum.de slots=2 max-slots=2
+linux48.clients.eikon.tum.de slots=2 max-slots=2
+linux49.clients.eikon.tum.de slots=2 max-slots=2
+linux50.clients.eikon.tum.de slots=2 max-slots=2
+linux51.clients.eikon.tum.de slots=2 max-slots=2
+linux52.clients.eikon.tum.de slots=2 max-slots=2
+linux53.clients.eikon.tum.de slots=2 max-slots=2
+linux54.clients.eikon.tum.de slots=2 max-slots=2
+linux55.clients.eikon.tum.de slots=2 max-slots=2
+linux56.clients.eikon.tum.de slots=2 max-slots=2
+linux57.clients.eikon.tum.de slots=2 max-slots=2
+linux58.clients.eikon.tum.de slots=2 max-slots=2
+linux59.clients.eikon.tum.de slots=2 max-slots=2
+linux60.clients.eikon.tum.de slots=2 max-slots=2
+linux61.clients.eikon.tum.de slots=2 max-slots=2
+linux62.clients.eikon.tum.de slots=2 max-slots=2
+linux63.clients.eikon.tum.de slots=2 max-slots=2
+linux64.clients.eikon.tum.de slots=2 max-slots=2
+linux65.clients.eikon.tum.de slots=2 max-slots=2
+linux66.clients.eikon.tum.de slots=2 max-slots=2
+linux67.clients.eikon.tum.de slots=2 max-slots=2
+linux68.clients.eikon.tum.de slots=2 max-slots=2
+linux69.clients.eikon.tum.de slots=2 max-slots=2
+
+

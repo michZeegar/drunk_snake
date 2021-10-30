@@ -1,0 +1,12 @@
+## Imortant command to connect to HPC network from a external system
+
+# First connectin to the eikon netwokr via ssh
+ssh [tum-credentials]@linux[01-89].clients.eikon.tum.de
+
+# With kebereos you can connect to HPC network frok the eikon network
+ssh [tum-credential]@hpc[01-15].clients.eikon.tum.de
+
+# sometimes the one system is down or simple not answering, if this is the case simple switch to a onther device (for example from linux  02 to 27)
+
+# To set up the current system for the HPC computing start the config_script_mpi.sh. 
+# If you want to change the used HPC computer, you have to change the host_file in the config and run the config_script_mpi again. 

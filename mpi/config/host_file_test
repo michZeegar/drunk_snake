@@ -1,0 +1,12 @@
+# Available workers for mpi, do not edit by hand.
+# Use the python script!
+# Comments as in Pyhton.
+
+# Eikon Worker
+linux43.clients.eikon.tum.de slots=2 max-slots=2
+linux44.clients.eikon.tum.de slots=2 max-slots=2
+linux45.clients.eikon.tum.de slots=2 max-slots=2
+linux46.clients.eikon.tum.de slots=2 max-slots=2
+
+
+

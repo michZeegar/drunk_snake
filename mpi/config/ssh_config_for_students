@@ -1,0 +1,206 @@
+
+Host hpc01
+  HostName hpc01.clients.eikon.tum.de
+
+Host hpc02
+  HostName hpc02.clients.eikon.tum.de
+
+Host hpc03
+  HostName hpc03.clients.eikon.tum.de
+
+Host hpc04
+  HostName hpc04.clients.eikon.tum.de
+
+Host hpc05
+  HostName hpc05.clients.eikon.tum.de
+
+Host hpc06
+  HostName hpc06.clients.eikon.tum.de
+
+Host hpc07
+  HostName hpc07.clients.eikon.tum.de
+
+Host hpc08
+  HostName hpc08.clients.eikon.tum.de
+
+Host hpc09
+  HostName hpc09.clients.eikon.tum.de
+
+Host hpc10
+  HostName hpc10.clients.eikon.tum.de
+
+Host hpc11
+  HostName hpc11.clients.eikon.tum.de
+
+Host hpc12
+  HostName hpc12.clients.eikon.tum.de
+
+Host hpc13
+  HostName hpc13.clients.eikon.tum.de
+
+Host hpc14
+  HostName hpc14.clients.eikon.tum.de
+
+Host hpc15
+  HostName hpc15.clients.eikon.tum.de
+
+Host hpc16
+  HostName hpc16.clients.eikon.tum.de
+
+# Eikon Rechner
+Host linux20
+  HostName linux20.clients.eikon.tum.de 
+
+Host linux21
+  HostName linux21.clients.eikon.tum.de 
+
+Host linux22
+  HostName linux22.clients.eikon.tum.de 
+
+Host linux23
+  HostName linux23.clients.eikon.tum.de 
+
+Host linux24
+  HostName linux24.clients.eikon.tum.de 
+
+Host linux25
+  HostName linux25.clients.eikon.tum.de 
+
+Host linux26
+  HostName linux26.clients.eikon.tum.de 
+
+Host linux27
+  HostName linux27.clients.eikon.tum.de 
+
+Host linux28
+  HostName linux28.clients.eikon.tum.de 
+
+Host linux29
+  HostName linux29.clients.eikon.tum.de 
+
+Host linux30
+  HostName linux30.clients.eikon.tum.de 
+
+Host linux31
+  HostName linux31.clients.eikon.tum.de 
+
+Host linux32
+  HostName linux32.clients.eikon.tum.de 
+
+Host linux33
+  HostName linux33.clients.eikon.tum.de 
+
+Host linux34
+  HostName linux34.clients.eikon.tum.de 
+
+Host linux35
+  HostName linux35.clients.eikon.tum.de 
+
+Host linux36
+  HostName linux36.clients.eikon.tum.de 
+
+Host linux37
+  HostName linux37.clients.eikon.tum.de 
+
+Host linux38
+  HostName linux38.clients.eikon.tum.de 
+
+Host linux39
+  HostName linux39.clients.eikon.tum.de 
+
+Host linux40
+  HostName linux40.clients.eikon.tum.de 
+
+Host linux41
+  HostName linux41.clients.eikon.tum.de 
+
+Host linux42
+  HostName linux42.clients.eikon.tum.de 
+
+Host linux43
+  HostName linux43.clients.eikon.tum.de 
+
+Host linux44
+  HostName linux44.clients.eikon.tum.de 
+
+Host linux45
+  HostName linux45.clients.eikon.tum.de 
+
+Host linux46
+  HostName linux46.clients.eikon.tum.de 
+
+Host linux47
+  HostName linux47.clients.eikon.tum.de 
+
+Host linux48
+  HostName linux48.clients.eikon.tum.de 
+
+Host linux49
+  HostName linux49.clients.eikon.tum.de 
+
+Host linux50
+  HostName linux50.clients.eikon.tum.de 
+
+Host linux51
+  HostName linux51.clients.eikon.tum.de 
+
+Host linux52
+  HostName linux52.clients.eikon.tum.de 
+
+Host linux53
+  HostName linux53.clients.eikon.tum.de 
+
+Host linux54
+  HostName linux54.clients.eikon.tum.de 
+
+Host linux55
+  HostName linux55.clients.eikon.tum.de 
+
+Host linux56
+  HostName linux56.clients.eikon.tum.de 
+
+Host linux57
+  HostName linux57.clients.eikon.tum.de 
+
+Host linux58
+  HostName linux58.clients.eikon.tum.de 
+
+Host linux59
+  HostName linux59.clients.eikon.tum.de 
+
+Host linux60
+  HostName linux60.clients.eikon.tum.de 
+
+Host linux61
+  HostName linux61.clients.eikon.tum.de 
+
+Host linux62
+  HostName linux62.clients.eikon.tum.de 
+
+Host linux63
+  HostName linux63.clients.eikon.tum.de 
+
+Host linux64
+  HostName linux64.clients.eikon.tum.de 
+
+Host linux65
+  HostName linux65.clients.eikon.tum.de 
+
+Host linux66
+  HostName linux66.clients.eikon.tum.de 
+
+Host linux67
+  HostName linux67.clients.eikon.tum.de 
+
+Host linux68
+  HostName linux68.clients.eikon.tum.de 
+
+Host linux69
+  HostName linux69.clients.eikon.tum.de 
+  
+# Configuration for all hosts
+Host *
+  User ga12abc
+  ForwardX11 yes
+  Compression yes
+
