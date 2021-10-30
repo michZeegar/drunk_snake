@@ -2,9 +2,9 @@
 
 ## Beschreibung der Welt:
 
-	- Spielfeld mit 15 x 15 Feldern.
-	- Maximale Länge der Schlange ist 10. Diese Länge soll noch beobachtet werden können.
-	- Man spielt auf einem Donut: Wenn man das Feld oben verlässt kommt man unten wieder herein. Alle anderen Fälle analog
+- Spielfeld mit 15 x 15 Feldern.
+- Maximale Länge der Schlange ist 10. Diese Länge soll noch beobachtet werden können.
+- Man spielt auf einem Donut: Wenn man das Feld oben verlässt kommt man unten wieder herein. Alle anderen Fälle analog
 
 ---	
 ## Start:
@@ -16,20 +16,23 @@ Das Ziel kann unter der Schlange liegen.
 ## Zustandsraum:
 
 Zustände bestehen aus:
-		1) Koordinate des Ziels
-		2) Koordinate vom Kopf
-		3) Alle Richtungen in welche der nächste Teil vom Körper kommt
+
+1) Koordinate des Ziels
+2) Koordinate vom Kopf
+3) Alle Richtungen in welche der nächste Teil vom Körper kommt
 		
-Alle möglichen Kombination müssen durchnummeriert werden, oder euer Code muss mit Tupeln zurecht kommen.
 Selbstkollisionen sind nicht erlaubt.
 
 ---
 ## Dynamik f(x,u,w):
 
-Die Funktion f(x,u,w) kann mit einem Zustand x, einer Aktion u und dem Zufallsparameter w aufgerufen werden um einen der Nachfolger (deterministisch) zu berechnen. Die gesamte Stochastik wird in der Variable w ausgedrückt.
+Die Funktion f(x,u,w) kann mit einem Zustand x, einer Aktion u und dem Zufallsparameter w aufgerufen werden um einen der Nachfolger (deterministisch) zu berechnen. 
+Die gesamte Stochastik wird in der Variable w ausgedrückt.
 Da die Schlange betrunken ist, gibt es eine Tendenz eine in Blickrichtung Rechts verschobene Aktion auszuführen.
 
-Als Beispiel: Die Schlange schaut auf dem Feld nach links, als Aktion wird "ein Feld nach unten" an f(x,u,w) übergeben. Nun gibt es zwei mögliche nachfolge Zustände
+Als Beispiel: 
+
+Die Schlange schaut auf dem Feld nach links, als Aktion wird "ein Feld nach unten" an f(x,u,w) übergeben. Nun gibt es zwei mögliche nachfolge Zustände
 Die Aktion wird wie geplant ausgeführt, der Kopf der Schlange ist nun eins weiter unten auf dem Feld.
 Die Aktion wird falsch durgeführt, die Schlange ist statt nach unten weiter in Blickrichtung gelaufen (die geplante Richtung "nach Unten" wurde aus der Sicht der Schlange nach Rechts verschoben und zeigt nun nach Links).
 Der erste Fall soll in 80% der Fälle eintreten, der zweite in 20%.
@@ -55,25 +58,13 @@ Wir wollen natürlich, dass die Schlange möglichst lang wird: Kostenfunktionen,
 Genaue Werte/Funktionen kann man quasi nicht vorhersagen, deswegen ist Trial-and-error angesagt bis ihr eine Funktionierende lösung habt.
 Generell hängt die Kostenfunktion von allen drei Variabln ab, man muss diese aber nicht verwenden wenn sie nicht benötigt werden. Insbesondere sind die Kosten hier im Kurs deterministisch, also unabhängig von w.
 
+---
+## Asynchronous Value Iteration:
+
+Die Berechnung einer sinvollen Strategie erfolgt über einen *Asynchronous Value Iteration* Ansatz.
+Zur effizienteren Berechnung wird dabei der Zustandsraum über *MPI* mit mehreren Prozessoren geteilt, um parallele Berechnung schneller zu einer konvergierten Lösung zu kommen.
 
 ---
 ## Visualisierung:
 
-In eurem C++ Code liegt bereits alles vor was ihr für eine Visualisierung braucht.
-Baut deswegen eine einfache GUI in Qt zusammen und nutzt diese um das Snake Spiel und eure Strategie darzustellen.
-Es bietet sich an die Strategie zu berechnen und abzuspeichern, die Visualisierung kann diese dann laden und darstellen.
-Evtl. müsst ihr euch gedanken machen wie man effizient die Strategie handhaben kann.
-Neben der Darstellung der Schlange ist auch ein Punktestand notwendig, damit man für den Wettbewerb einen Wert hat:
-Anzahl der eingesammelten Ziele seit Spielbeginn.
-Durchschnittliche Länge, gemessen wenn ein Reset auftaucht.
-Anzahl der Selbstkollisionen seit Spielbeginn.
-
----
-## Asynchronous Value Iteration:
-
-Fangt mit einem kleinen Snake-Game an und löst es erstmal Synchron, also ein Zustand nach dem anderen updaten und das "unendlich oft" (lang genug bis sich V nicht mehr ändert).
-Dann habt ihr eine Vergleichslösung wenn ihr den Algorithmus parallel und verteilt implementiert.
-Der Discount Faktor gamma liegt im Bereich (0,1). Beide Intervallgrenzen sind ausgeschlossen.
-Der klassiker ist 0.9, aber generell gilt: Kleinere Werte beschleunigen die Konvergenz, aber zu kleine Werte können evtl. die Entscheidungen beeinflussen (zum Schlechteren).
-Sobald euer Code läuft könnt ihr euch hier ein wenig rumspielen und die Strategie beeinflussen.
-
+Eine erfolgreich gelernten Strategie kann nachher durch ein kleines Qt-Visualisierung getestet und analysiert werden.
